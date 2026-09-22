@@ -9,13 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   shared:
-    path: ../shared
+    path: ./shared
+
   http: ^1.2.0
   google_fonts: ^6.1.0
   intl: ^0.19.0
   flutter_secure_storage: ^9.0.0
-
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
